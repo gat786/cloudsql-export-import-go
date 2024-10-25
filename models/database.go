@@ -106,6 +106,6 @@ type CloudSQLDatabase struct {
 	SatisfiesPzi                 bool                 `json:"satisfiesPzi"`
 }
 
-type CloudSQLDatabaseList struct {
+type CloudSQLDatabaseListResponse struct {
 	Items []CloudSQLDatabase `json:"items"`
 }
